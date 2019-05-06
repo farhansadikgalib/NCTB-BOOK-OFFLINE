@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bd.gov.nctb.nctbtextbookoffline"
+    android:installLocation="preferExternal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".PrimaryClass" />
+        <activity android:name=".CLASSONEBANGLA_V" />
+        <activity android:name=".AMARBANGLABOI" />
+        <activity android:name=".CLASS1ENGLISH" />
+        <activity android:name=".CLASS1MATH" />
+        <activity android:name=".Class1mathb" />
+        <activity android:name=".CLASSTWOBANGLA_V" />
+        <activity android:name=".CLASS2BANGLA" />
+        <activity android:name=".CLASS2ENGLISH" />
+        <activity android:name=".CLASS2MATHEN" />
+        <activity android:name=".CLASS2MATHBN" />
+        <activity android:name=".CLASSTHREEBANGLA_V" />
+        <activity android:name=".CLASS3BANGLA" />
+        <activity android:name=".CLASS3ENGLISH" />
+        <activity android:name=".CLASS3MATH" />
+        <activity android:name=".CLASS3SCIENCE" />
+        <activity android:name=".CLASS3BANGLADESHB" />
+        <activity android:name=".CLASS3ISLAM" />
+        <activity android:name=".CLASS3HINDU" />
+        <activity android:name=".CLASS3MATHEN" />
+        <activity android:name=".CLASS3SCIENCEEN" />
+        <activity android:name=".CLASS3BGS" />
+        <activity android:name=".CLASS3ISLAMEN" />
+        <activity android:name=".CLASS3HINDUEN" />
+        <activity android:name=".CLASSFOURBANGLA_V" />
+        <activity android:name=".CLASS4BANGLA" />
+        <activity android:name=".CLASS4ENGLISH" />
+        <activity android:name=".CLASS4MATH" />
+        <activity android:name=".CLASS4SCIENCE" />
+        <activity android:name=".CLASS4BANGLADESHB" />
+        <activity android:name=".CLASS4ISLAM" />
+        <activity android:name=".CLASS4HINDU" />
+        <activity android:name=".CLASS4MATHEN" />
+        <activity android:name=".CLASS4SCIENCEEN" />
+        <activity android:name=".CLASS4BGS" />
+        <activity android:name=".CLASS4ISLAMEN" />
+        <activity android:name=".CLASS4HINDUEN" />
+        <activity android:name=".CLASSFIVEBANGLA_V" />
+        <activity android:name=".CLASS5BANGLA" />
+        <activity android:name=".CLASS5ENGLISH" />
+        <activity android:name=".CLASS5MATH" />
+        <activity android:name=".CLASS5SCIENCE" />
+        <activity android:name=".CLASS5BGB" />
+        <activity android:name=".CLASS5ISLAM" />
+        <activity android:name=".CLASS5HINDU" />
+        <activity android:name=".About_Us"></activity>
+    </application>
+
+</manifest>

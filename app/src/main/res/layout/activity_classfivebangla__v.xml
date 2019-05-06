@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c7"
+    tools:context=".CLASSFIVEBANGLA_V">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/c5b" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:text="আমার বাংলা বই	"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/c5e" />
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:text="English for Today	"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="70dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/c5m" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:text="প্রাথমিক গণিত"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/c5s" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:text="প্রাথমিক বিজ্ঞান"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/c5bgs" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:text="বাংলাদেশ ও বিশ্বপরিচয় "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/c5islam"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:text="ইসলাম ও নৈতিক শিক্ষা "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/c5hin"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:text="হিন্দুধর্ম ও নৈতিক শিক্ষা "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

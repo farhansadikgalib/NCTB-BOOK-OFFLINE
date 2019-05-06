@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NCTB TEXTBOOK OFFLINE</string>
+
+    <string name="title_activity_class3_islam">CLASS3ISLAM</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_class4_hinduen">CLASS4HINDUEN</string>
+    <string name="bangla"> আমার বাংলা বই </string>
+</resources>

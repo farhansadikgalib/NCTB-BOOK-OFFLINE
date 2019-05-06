@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/classone"
+    android:orientation="vertical"
+    tools:context=".CLASSONEBANGLA_V">
+
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imageView28"
+        android:layout_gravity="center"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/c1b" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btnclr3"
+        android:gravity="center"
+        android:text="আমার বাংলা বই	"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_marginTop="15dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:src="@drawable/c1e" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btnclr4"
+        android:text="English for Today	"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="75dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_height="75dp"
+        android:src="@drawable/c1m" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnclr3"
+        android:text="প্রাথমিক গণিত"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
